@@ -1,0 +1,152 @@
+body {
+  font-family: "Lato", sans-serif;
+  margin: 0px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 38px;
+}
+
+.left-side {
+  display: flex;
+}
+
+.nav-wrapper > .left-side > div {
+  margin-right: 20px;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+}
+
+.nav-link-wrapper {
+  height: 22px;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom 0.5s;
+}
+
+.nav-link-wrapper a {
+  color: #8a8a8a;
+  text-decoration: none;
+  transition: color 0.5s;
+}
+
+.nav-link-wrapper:hover {
+  border-bottom: 1px solid black;
+}
+
+.nav-link-wrapper a:hover {
+  color: black;
+}
+
+.portfolio-items-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.portfolio-item-wrapper {
+  position: relative;
+}
+
+.portfolio-img-background {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 350px;
+  width: 100%;
+}
+
+.img-text-wrapper {
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.img-text-wrapper .subtitle {
+  transition: 1s;
+  color: indianred;
+}
+
+.img-text-wrapper:hover .subtitle {
+  color: mediumblue;
+  font-weight: 600;
+}
+
+#flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#flex-container div {
+  margin: 20px;
+  flex: 1 0 40%;
+}
+
+#flex-container div p,
+h1 {
+  margin: 20px;
+}
+
+#flex-container div img {
+  width: 40%;
+}
+
+#image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-content-wrapper {
+  flex: 1 0 50%;
+}
+
+.profile-content-wrapper h1 {
+  color: lightseagreen;
+}
+
+.bttm {
+  width: 100%;
+  background-color: black;
+  padding: 15px 0 15px;
+}
+.copyright {
+  color: #eaf6f6;
+  font-size: 0.75rem;
+  padding: 10px 700px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.i-img {
+  width: 25%;
+  height: 30%;
+  float: left;
+}
+
+.logo{
+	margin: 10px 20px;
+}
+.footer-link{
+	margin: 10px 22px;
+}
+.socials{
+    margin: 30px 45px;
+}
+
